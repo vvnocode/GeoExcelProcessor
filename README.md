@@ -20,10 +20,18 @@ input_file = path/to/your/input.xlsx
 output_file = path/to/your/output.xlsx
 ```
 
-## 运行方法
+## 打包
+
 1. 安装依赖库：
 pip install -r requirements.txt
 2. 运行脚本：
 python run.py
 3. 打包为可执行文件：
 pyinstaller --onefile .\run.py 
+
+## 直接运行
+
+1. [下载](https://github.com/vvnocode/GeoExcelProcessor/releases)安装包
+2. 解压后配置`config.ini` 文件
+3. 向input.xlsx添加数据
+4. 运行run.exe
