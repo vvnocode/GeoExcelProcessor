@@ -35,3 +35,11 @@ pyinstaller --onefile .\run.py
 2. 解压后配置`config.ini` 文件
 3. 向input.xlsx添加数据
 4. 运行run.exe
+
+## 接口  
+
+- 地理编码API：
+  只返回10条
+  https://restapi.amap.com/v3/geocode/geo?parameters
+- 距离测量API：
+  https://restapi.amap.com/v3/distance?parameters
